@@ -17,4 +17,4 @@ students_table = Table(
 # 4. Create the database and tables
 metadata.create_all(engine)
 
-print("\n🚀 Database and Table created successfully!")
+print("\n Database and Table created successfully!")
