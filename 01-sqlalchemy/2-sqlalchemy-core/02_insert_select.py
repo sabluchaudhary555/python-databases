@@ -17,7 +17,7 @@ students_table = Table('students', metadata, autoload_with=engine)
 with engine.connect() as conn:
 
     # ----------------------------------------------------
-    # Topic 1 & 2: SQL Expressions & Executing Expression (Insert Data)
+    # Topic 1 & 2: SQL Expression & Executing Expression (Insert Data)
     # ----------------------------------------------------
     insert_stmt = insert(students_table).values([
         {'name': 'Alice', 'age': 22},
