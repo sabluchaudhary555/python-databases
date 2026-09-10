@@ -5,7 +5,7 @@
 SQLAlchemy is a Python library used to interact with relational databases using Python code. It provides tools for executing SQL queries, managing database connections, and working with database records through Python objects instead of writing raw SQL directly.
 
 **Key Characteristics**
-- Supports popular databases such as MySQL, PostgreSQL, SQLite, MongoDB and Oracle.
+- Supports popular databases such as MySQL, PostgreSQL, SQLite, and MongoDB.
 - Allows developers to write database operations using Python instead of raw SQL for many common tasks.
 - Provides an Object Relational Mapping (ORM) system that maps database tables to Python classes.
 - Can be used with both ORM-based and SQL-based (Core) approaches, depending on project requirements.
