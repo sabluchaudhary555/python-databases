@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from 01_engine_model_setup import Base, User, Product  # Reusing models
+from engine_model_setup import Base, User, Product  # Reusing models
 
 engine = create_engine("sqlite:///orm_database.db", echo=False)
 Session = sessionmaker(bind=engine)
